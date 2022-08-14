@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+html {
+    font-size: 60%;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgba(255, 255, 255, 0.733);
+    margin-top: 1rem;
+}
+
+.main-div {
+    width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(
+        to right, #5737f7, #4b2fd7,
+         #b5f451, #6a6003);
+}
+
+.inner-div {
+    width: 60vw;
+    background:linear-gradient(to bottom, rgb(231, 148, 197),rgb(150, 244, 170));
+    padding: 3rem 8rem;
+    border-radius: 20px;
+}
+
+.inner-div h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-top: 1rem 0 4rem 0;
+}
+
+.inner-div li {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input {
+    cursor: pointer;
+}
+
+#Submit,
+.btn {
+    padding: 1rem 3rem;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 500;
+    display: block;
+    margin: auto;
+    border-radius: 3rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color:black;
+    cursor: pointer;
+    background-color:  rgba(33, 32, 32, 0.4);
+}
+
+#Submit:hover {
+    background-color: lightblue;
+    color: crimson;
+}
+
+#TotalScore {
+    background:linear-gradient(to right, rgb(169, 169, 237),rgb(99, 222, 193));
+    margin-top: 3rem;
+    padding: 3rem 4rem;
+    border-radius: 3rem;
+
+}
+
+#TotalScore h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+#TotalScore .btn {
+    margin-top: 2rem;
+    color: black;
+    border-radius: 3rem;
+    background-color: rgba(33, 32, 32, 0.4);
+}
+
+#TotalScore .btn:hover {
+    background-color: cornsilk;
+    color: blue;
+}
+
+.ScoreArea {
+    display: none;
+
+}
